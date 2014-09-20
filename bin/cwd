@@ -1,0 +1,9 @@
+#!/bin/sh -
+# 
+# Author: kmiku7 <kakoimiku@gmail.com>
+# File: cwd
+#
+# Brief:
+#
+
+echo `whoami`"@"`hostname`":"`pwd`"/"$1

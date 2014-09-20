@@ -1,0 +1,9 @@
+#!/bin/sh -
+# 
+# Author: kmiku7 <kakoimiku@gmail.com>
+# File: fcwd
+#
+# Brief:
+#
+
+echo ftp://`hostname``pwd`"/"$1
