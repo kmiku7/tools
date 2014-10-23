@@ -4,3 +4,4 @@
 alias cppgrep="filegrep \"*.cpp\""
 alias phpgrep="filegrep \"*.php\""
 alias hgrep="filegrep \"*.h\""
+alias gogrep="filegrep \"*.go\""
