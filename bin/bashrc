@@ -3,7 +3,10 @@
 
 alias cppgrep="filegrep \"*.cpp\""
 alias cgrep="filegrep \"*.c\""
+alias ccgrep="filegrep \"*.cc\""
 alias phpgrep="filegrep \"*.php\""
+alias pygrep="filegrep \"*.py\""
 alias hgrep="filegrep \"*.h\""
+alias hppgrep="filegrep \"*.hpp\""
 alias gogrep="filegrep \"*.go\""
 alias rmsg="curl -s http://whatthecommit.com/index.txt"
