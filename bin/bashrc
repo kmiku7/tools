@@ -11,5 +11,8 @@ alias hppgrep="filegrep \"*.hpp\""
 alias gogrep="filegrep \"*.go\""
 alias rmsg="curl -s http://whatthecommit.com/index.txt"
 alias urldecode='sed "s@+@ @g;s@%@\\\\x@g" | xargs -0 printf "%b"'
-
+<<<<<<< HEAD
+alias explain_lint='pylint --help-msg'
 export HISTCONTROL=ignoredups:erasedups
+=======
+>>>>>>> parent of 58be24b... add config for history
