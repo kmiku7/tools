@@ -9,7 +9,32 @@ alias pygrep="filegrep \"*.py\""
 alias hgrep="filegrep \"*.h\""
 alias hppgrep="filegrep \"*.hpp\""
 alias gogrep="filegrep \"*.go\""
-alias rmsg="curl -s http://whatthecommit.com/index.txt"
+alias rmsg="curl -s -m 3 http://whatthecommit.com/index.txt"
 alias urldecode='sed "s@+@ @g;s@%@\\\\x@g" | xargs -0 printf "%b"'
 
 export HISTCONTROL=ignoredups:erasedups
+
+case "$OSTYPE" in
+  solaris*)
+    # echo "SOLARIS"
+    ;;
+  darwin*)
+    # echo "OSX"
+    alias ll='ls -lh --color'
+    ;;
+  linux*)
+    # echo "LINUX"
+    ;;
+  bsd*)
+    # echo "BSD"
+    ;;
+  msys*)
+    # echo "WINDOWS"
+    ;;
+  cygwin*)
+    # echo "ALSO WINDOWS"
+    ;;
+  *)
+    # echo "unknown: $OSTYPE"
+    ;;
+esac
