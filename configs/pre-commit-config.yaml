@@ -19,7 +19,3 @@ repos:
     rev: v0.32.0
     hooks:
     -   id: yapf
--   repo: https://github.com/asottile/add-trailing-comma
-    rev: v2.2.1
-    hooks:
-    -   id: add-trailing-comma
