@@ -1,4 +1,6 @@
 #/bin/bash
+# Finds all local git repo in `SEARCH_ROOT`, and then executes the `pull` operation in it.
+
 SEARCH_ROOT=./
 find "$SEARCH_ROOT" -type d -name "\.git"  -print | while read -r REPO;
 do
