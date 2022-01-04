@@ -1,5 +1,6 @@
 #/bin/bash
 # Gets from `https://stackoverflow.com/questions/38313733/bulk-change-of-git-remote-origin-in-various-repositories-bash-command`
+# Finds all local git repos and then substitude the remove urls with `PATTERN`, if it matches `REPLACEMENT`.
 
 SEARCH_ROOT=./
 PATTERN=github.com  # Change this part as your need
